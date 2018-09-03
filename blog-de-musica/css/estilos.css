@@ -1,0 +1,30 @@
+body{
+  background-color: #FE9A2E;
+}
+.cuerpo{
+  background-color: #0080FF;
+}
+header{
+margin-bottom: 2px;
+}
+.logo-musica{
+  width: 50%
+}
+.redes-sociales>img{
+  width: 9%;
+}
+
+.nav-link:hover{
+  background-color: #A9BCF5;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .logo{
+    text-align: center !important;
+  }
+  .redes-sociales{
+    text-align: center !important;
+  }
+
+}
