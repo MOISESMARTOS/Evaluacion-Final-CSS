@@ -1,16 +1,11 @@
 body{
   background-color: #FE9A2E;
 }
-.cuerpo{
-  background-color: #0080FF;
-}
-header{
-margin-bottom: 2px;
-}
+
 .logo-musica{
   width: 50%
 }
-.redes-sociales>img{
+.redes-sociales>a>img{
   width: 9%;
 }
 
