@@ -34,6 +34,9 @@ padding-right: 0.5rem !important;
 .foto-central{
   padding: 0;
 }
+.fecha{
+  color: rgb(228, 87, 17);
+}
 .comentario{
   margin-bottom: 3px;
 }
