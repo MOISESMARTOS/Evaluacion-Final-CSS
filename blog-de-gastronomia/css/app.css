@@ -1,0 +1,35 @@
+body{
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-color: grey;
+}
+header{
+  margin-bottom: 2%;
+  border-bottom: 1px solid white;
+}
+.contenedor{
+  background-color: rgba(228, 87, 17, 0.69);
+  min-height: 30px;
+}
+
+.slogan{
+  border-right: 1px solid white;
+  margin-bottom: 1%;
+}
+
+aside, section{
+padding-left: 0.5rem !important;
+padding-right: 0.5rem !important;
+}
+
+.menu>a:hover{
+  background-color: #08B7E6;
+  color: white;
+}
+
+.comentario{
+  margin-bottom: 3px;
+}
+.usuario{
+  font-size: 3em;
+}
