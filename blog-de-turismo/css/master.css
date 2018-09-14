@@ -5,7 +5,22 @@ float: left;
 }
 
 .slogan{
-margin-top: 0;
-padding-top: 4rem;
-padding-bottom: 1rem;
+  margin: 0;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.img-redes{
+  width: 100%;
+}
+.galeria>img{
+  max-width: 100%;
+}
+.img-articulo{
+  max-width: 30%;
+  float: left;
+  margin-right: 5px;
+}
+.foto-perfil{
+  max-width: 30%;
 }

@@ -7,13 +7,15 @@
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <link rel="stylesheet" href="css/master.css">
+      <!--Import materialize.jss -->
+      <script src="js/materialize.js"></script>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <title>Mi blog de turismo</title>
   </head>
   <body>
-    <nav class="nav-extended">
+    <nav class="nav-extended transparent">
         <div class="nav-wrapper">
           <img class="logo" src="img/logo-01.png" alt="">
           <ul class="right">
@@ -22,15 +24,110 @@
             <li><a href="#"><i class="material-icons left">star</i><span class="hide-on-med-and-down">MEJORES VIAJES</span></a></li>
             <li><a href="#"><i class="material-icons left">comment</i><span class="hide-on-med-and-down">RECOMENDACIONES</span></a></li>
           </ul>
-          <div class="nav-content hide-on-small-only">
-            <h4 class="slogan flow-text">Creando mi propio camino</h4>
-          </div>
+          <h4 class="slogan flow-text hide-on-small-only">Creando mi propio camino</h4>
         </div>
         <div class="nav-content hide-on-med-and-up">
-          <h4 class="slogan flow-text">Creandon mi propio camino</h4>
+          <h4 class="flow-text">Creandon mi propio camino</h4>
         </div>
-      </nav>
-
-
+    </nav>
+    <div class="row center">
+      <aside class="col l1 teal lighten-2 hide-on-med-and-down">
+        <img src="img/fb.png" alt="Facebook" class="resonsive-img img-redes">
+        <img src="img/ig.png" alt="Instagram" class="resonsive-img img-redes">
+        <img src="img/tt.png" alt="Twitter" class="resonsive-img img-redes">
+      </aside>
+      <section class="col s12 m12 l11">
+        <div class="row">
+          <article class="col s12 m12 l4">
+            <div class=" galeria">
+              <img class="resonsive-img z-depth-2" src="img/Cuzco.jpg" alt="">
+            </div>
+            <div class=" galeria">
+              <img class="resonsive-img z-depth-2" src="img/valle-sagrado.jpg" alt="">
+            </div>
+            <div class=" galeria">
+              <img class="resonsive-img z-depth-2" src="img/Lima.jpg" alt="">
+            </div>
+          </article>
+          <article class="col s12 m12 l4">
+            <div class=" galeria">
+              <img class="resonsive-img z-depth-2" src="img/plaza-arequipa.jpg" alt="">
+            </div>
+          </article>
+          <article class="col s12 m12 l4">
+            <div class=" galeria">
+              <img class="resonsive-img z-depth-2" src="img/Lima.jpg" alt="">
+            </div>
+            <div class=" galeria">
+              <img class="resonsive-img z-depth-2" src="img/mancora.jpg" alt="">
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+    <div class="row">
+      <div class="col s12 m12 l8">
+        <div class="card blue-grey darken-1">
+          <div class="card-content blue lighten-5">
+            <img class="resonsive-img img-articulo" src="img/machu_picchu.jpeg" alt="">
+            <span class="card-title">Machu Picchu</span>
+            <div class="chip">
+              14 de septiembre, 2018
+              <i class="material-icons">date_range</i>
+            </div>
+            <div class="chip">
+              Cuzco, Perú
+              <i class="material-icons">location_on</i>
+            </div>
+            <p>Impresionante ciudad incaica levantada por sobre los 2.360 metros sobre el nivel del mar, sobrecogedor paisaje de murallas, terrazas y rampas que parecieran esculpidas en la roca misma, inmersas entre majestuosos picos de montañas, acantilados y el verdor de la floresta amazónica.</p>
+            <p>Declarada hoy Patrimonio Mundial por la UNESCO y una de las Siete Maravillas del Mundo Moderno, permite recrear a través de sus templos, palacios y escalinatas, lo que alguna vez fue la construcción más esplendorosa edificada por el imperio Inca, comprendiendo una extensa área de 530 metros de largo por 200 de ancho, que incluye al menos 172 recintos.</p>
+          </div>
+          <div class="card indigo lighten-5">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">person</i>
+                <textarea for="" id="textarea1" class="materialize-textarea" title="Comentar"></textarea>
+                <label for="textarea1">Comentar</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card blue-grey darken-1">
+          <div class="card-content blue lighten-5">
+            <img class="resonsive-img img-articulo" src="img/Arequipa.png" alt="">
+            <span class="card-title">Arequipa</span>
+            <div class="chip">
+              14 de septiembre, 2018
+              <i class="material-icons">date_range</i>
+            </div>
+            <div class="chip">
+              Arequipa, Perú
+              <i class="material-icons">location_on</i>
+            </div>
+            <p>Apodada como la Ciudad Blanca, una ciudad que encanta por su apariencia colonial, con un despliegue de arquitecturas en piedra volcánica blanca y un hermoso centro histórico declarado Patrimonio de la Humanidad por la UNESCO.</p>
+            <p>Sitios de especial interés, son la Plaza de Armas con su catedral neoclásica, conventos como Santa Catalina que asemejan verdaderas ciudadelas o el Barrio de San Lázaro, con sus plazoletas y estrechas callejuelas empedradas que evocan un poblado andaluz.</p>
+          </div>
+          <div class="card indigo lighten-5">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">person</i>
+                <textarea for="" id="textarea2" class="materialize-textarea" title="Comentar"></textarea>
+                <label for="textarea2">Comentar</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l4">
+        <div class="card">
+          <div class="card-content center">
+            <img src="img/hombre.png" alt="" class="circle resonsive-img foto-perfil">
+            <span class="card-title">Perfil del autor</span>
+            <hr>
+            <p>Soy un amante de la aventura y me encanta viajar por las diferentes regiones de este hermoso país. En este blog te brindo los tips de todos los sitios que visito para valorar, disfrutar y sentirnos orgullosos de lo nuestro.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
