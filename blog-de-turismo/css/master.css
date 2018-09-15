@@ -1,3 +1,21 @@
+nav{
+box-shadow: none;
+}
+.contenedor{
+  background-size: auto 90%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.up{
+  background-position: 0 145%;
+}
+
+.fondo{
+  background-color: #08B7E6;
+  background-image: url("../img/Arequipa.png");
+}
+
 .logo{
 width: 7em;
 margin-top: 10px;
