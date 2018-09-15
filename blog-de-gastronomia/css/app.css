@@ -1,7 +1,7 @@
 body{
   background-image: url(../img/fondo.jpg);
   background-size: cover;
-  background-color: grey;
+  background-attachment: fixed;
 }
 header{
   margin-bottom: 2%;
